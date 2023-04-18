@@ -23,6 +23,13 @@
   --dl-color-full-orange: rgba(255, 116, 57, 1);
   --dl-color-full-purple: rgba(105, 31, 169, 1);
   --dl-color-full-violet: rgba(165, 36, 179, 1);
+  --dl-color-grey-grey41: rgba(207, 205, 212, 1);
+  --dl-color-grey-grey42: rgba(207, 205, 212, 1);
+  --dl-color-grey-grey43: rgba(207, 205, 212, 1);
+  --dl-color-grey-grey44: rgba(207, 205, 212, 1);
+  --dl-color-grey-grey45: rgba(207, 205, 212, 1);
+  --dl-color-grey-grey46: rgba(207, 205, 212, 1);
+  --dl-color-grey-grey47: rgba(207, 205, 212, 1);
   --dl-color-primary-100: #003EB3;
   --dl-color-primary-300: #0074F0;
   --dl-color-primary-500: #14A9FF;
@@ -51,6 +58,13 @@
   --dl-color-default-dclwhite: rgba(255, 255, 255, 1);
   --dl-color-secondary-yellow: rgba(255, 188, 91, 1);
   --dl-space-space-threeunits: 48px;
+  --dl-color-default-dclwhite1: rgba(255, 255, 255, 1);
+  --dl-color-default-dclwhite2: rgba(255, 255, 255, 1);
+  --dl-color-default-dclwhite3: rgba(255, 255, 255, 1);
+  --dl-color-default-dclwhite4: rgba(255, 255, 255, 1);
+  --dl-color-default-dclwhite5: rgba(255, 255, 255, 1);
+  --dl-color-default-dclwhite6: rgba(255, 255, 255, 1);
+  --dl-color-default-dclwhite7: rgba(255, 255, 255, 1);
   --dl-color-secondary-lavender: rgba(198, 64, 205, 1);
   --dl-space-space-oneandhalfunits: 24px;
 }
