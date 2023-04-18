@@ -6,7 +6,7 @@ import './header.css'
 
 const Header = (props) => {
   return (
-    <div className={`header-nav ${props.rootClassName} `}>
+    <header className={`header-nav ${props.rootClassName} `}>
       <div className="header-bg">
         <img
           alt={props.Vector20_alt}
@@ -958,7 +958,7 @@ const Header = (props) => {
           />
         </div>
       </div>
-    </div>
+    </header>
   )
 }
 
