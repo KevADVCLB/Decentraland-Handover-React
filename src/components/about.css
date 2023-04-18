@@ -14,9 +14,9 @@
   border-radius: 0px 0px 0px 0px;
   flex-direction: row;
   justify-content: flex-start;
-  background-color: transparent;
+  background-color: blue;
 }
-.about-decentra-logo1 {
+.about-about .about-decentra-logo1 {
   top: 0px;
   left: 233px;
   width: 726px;
@@ -24,6 +24,7 @@
   position: absolute;
   border-color: transparent;
 }
+
 .about-text {
   top: 198px;
   color: var(--dl-color-grey-white);
@@ -34,6 +35,7 @@
   text-align: center;
   line-height: 110px;
 }
+
 .about-text5 {
   top: 144px;
   left: 297px;
@@ -47,10 +49,11 @@
   text-align: center;
   font-family: Inter;
   font-weight: 500;
-  line-height: 120.00000476837158%;
+  line-height: 120.0000047684%;
   font-stretch: normal;
   text-decoration: none;
 }
+
 .about-root-class-name {
   top: 2369px;
   left: 262px;
@@ -58,3 +61,5 @@
   margin-right: 0;
   margin-bottom: 0;
 }
+
+/*# sourceMappingURL=about.css.map */
