@@ -1,0 +1,367 @@
+.news-news {
+  width: 1526px;
+  height: 486px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.news-text {
+  color: var(--dl-color-grey-white);
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: center;
+  line-height: 64px;
+}
+.news-card04 {
+  top: 80px;
+  left: 774px;
+  width: 366px;
+  height: 318px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.news-image34 {
+  top: 0px;
+  left: 0px;
+  width: 366px;
+  height: 206px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 12px;
+}
+.news-text02 {
+  top: 230px;
+  left: 120px;
+  color: var(--dl-color-grey-grey3);
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.news-text04 {
+  top: 230px;
+  color: var(--dl-color-grey-white);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.news-decentraland202-recap {
+  top: 254px;
+  left: 0px;
+  width: 366px;
+  height: 64px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.news-text06 {
+  color: var(--dl-color-grey-white);
+  width: 366px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 32px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.news-card03 {
+  top: 80px;
+  left: 388px;
+  width: 366px;
+  height: 318px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.news-image35 {
+  top: 0px;
+  left: 0px;
+  width: 366px;
+  height: 206px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 12px;
+}
+.news-text08 {
+  top: 230px;
+  left: 120px;
+  color: var(--dl-color-grey-grey3);
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.news-text10 {
+  top: 230px;
+  color: var(--dl-color-grey-white);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.news-introducingthe-decentralandeditor {
+  top: 254px;
+  left: 0px;
+  width: 366px;
+  height: 64px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.news-text12 {
+  color: var(--dl-color-grey-white);
+  width: 366px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 32px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.news-card02 {
+  top: 80px;
+  left: 2px;
+  width: 366px;
+  height: 318px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.news-image37 {
+  top: 0px;
+  left: 0px;
+  width: 366px;
+  height: 206px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 12px;
+}
+.news-blog-title {
+  top: 254px;
+  left: 0px;
+  width: 366px;
+  height: 64px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.news-text14 {
+  color: var(--dl-color-grey-white);
+  width: 366px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 32px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.news-text16 {
+  top: 230px;
+  left: 120px;
+  color: var(--dl-color-grey-grey3);
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.news-text18 {
+  top: 230px;
+  color: var(--dl-color-grey-white);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.news-card01 {
+  top: 80px;
+  left: 1160px;
+  width: 366px;
+  height: 318px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.news-image371 {
+  top: 0px;
+  left: 0px;
+  width: 366px;
+  height: 206px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 12px;
+}
+.news-text20 {
+  top: 230px;
+  left: 120px;
+  color: var(--dl-color-grey-grey3);
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.news-text22 {
+  top: 230px;
+  color: var(--dl-color-grey-white);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.news-lan-rentals-becomean-easy-processvia-decentralands-mark {
+  top: 254px;
+  left: 0px;
+  width: 366px;
+  height: 64px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.news-text24 {
+  color: var(--dl-color-grey-white);
+  width: 366px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 32px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.news-button-medium {
+  top: 430px;
+  left: 2px;
+  height: 56px;
+  display: flex;
+  padding: 20px 28px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+}
+.news-text26 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.news-root-class-name {
+  top: 1735px;
+  left: 100px;
+  position: absolute;
+  margin-right: 0;
+  margin-bottom: 0;
+}
