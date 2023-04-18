@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import Nav from '../components/nav'
+import Header from '../components/header'
 import Hero from '../components/hero'
 import Events from '../components/events'
 import News from '../components/news'
@@ -13,7 +13,7 @@ import Influence from '../components/influence'
 import Trending from '../components/trending'
 import Discover from '../components/discover'
 import FAQsSection from '../components/f-qs-section'
-import Footercontent from '../components/footercontent'
+import Footer from '../components/footer'
 import './desktop-final01.css'
 
 const DesktopFinal01 = (props) => {
@@ -23,7 +23,7 @@ const DesktopFinal01 = (props) => {
         <title>exported project</title>
       </Helmet>
       <div className="desktop-final01-desktop-final01">
-        <Nav rootClassName="nav-root-class-name"></Nav>
+        <Header rootClassName="header-root-class-name"></Header>
         <Hero rootClassName="hero-root-class-name"></Hero>
         <button className="desktop-final01-button-big">
           <span className="desktop-final01-text">
@@ -44,7 +44,7 @@ const DesktopFinal01 = (props) => {
         <Trending rootClassName="trending-root-class-name"></Trending>
         <Discover rootClassName="discover-root-class-name"></Discover>
         <FAQsSection rootClassName="f-qs-section-root-class-name"></FAQsSection>
-        <Footercontent rootClassName="footercontent-root-class-name"></Footercontent>
+        <Footer rootClassName="footer-root-class-name"></Footer>
       </div>
     </div>
   )
