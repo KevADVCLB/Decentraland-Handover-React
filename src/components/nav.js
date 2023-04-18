@@ -152,7 +152,7 @@ const Nav = (props) => {
         </div>
       </div>
       <div className="nav-megamenu">
-        <div className="nav-explore">
+        <div className="nav-menu-explore">
           <div className="nav-frame4601">
             <img
               src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b2674ab6-a6c5-49d8-9b64-f4644086f0dc/dcbb4adc-6512-43fe-9404-95d444abc3b6?org_if_sml=13045"
@@ -281,7 +281,7 @@ const Nav = (props) => {
             className="nav-rectangle12342"
           />
         </div>
-        <div className="nav-create">
+        <div className="nav-menu-create">
           <div className="nav-frame46011">
             <img
               src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b2674ab6-a6c5-49d8-9b64-f4644086f0dc/cc90839b-e52f-4545-8163-0f5140de79bd?org_if_sml=13045"
@@ -423,7 +423,7 @@ const Nav = (props) => {
             className="nav-rectangle123421"
           />
         </div>
-        <div className="nav-market-place05">
+        <div className="nav-menu-marketplace">
           <img
             src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b2674ab6-a6c5-49d8-9b64-f4644086f0dc/0ea3f273-e341-40fb-9df2-92d6b2b2fcff?org_if_sml=13045"
             alt="Rectangle123658643"
@@ -469,7 +469,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-gsgh.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace06"
+                className="nav-marketplace05"
               />
             </div>
             <div className="nav-navcomponent09">
@@ -491,7 +491,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-jg85.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace07"
+                className="nav-marketplace06"
               />
             </div>
             <div className="nav-navcomponent10">
@@ -513,7 +513,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-jvc6.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace08"
+                className="nav-marketplace07"
               />
             </div>
             <div className="nav-navcomponent11">
@@ -555,7 +555,7 @@ const Nav = (props) => {
             className="nav-rectangle123422"
           />
         </div>
-        <div className="nav-community">
+        <div className="nav-menu-community">
           <div className="nav-frame46013">
             <img
               src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b2674ab6-a6c5-49d8-9b64-f4644086f0dc/b39872ba-c2a4-4670-b018-4c6d7ca02919?org_if_sml=13045"
@@ -608,7 +608,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-5n98.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace09"
+                className="nav-marketplace08"
               />
             </div>
             <div className="nav-navcomponent13">
@@ -632,7 +632,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-04o5.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace10"
+                className="nav-marketplace09"
               />
             </div>
             <div className="nav-navcomponent14">
@@ -654,7 +654,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-73yn.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace11"
+                className="nav-marketplace10"
               />
             </div>
             <div className="nav-navcomponent15">
@@ -678,7 +678,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-r638.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace12"
+                className="nav-marketplace11"
               />
             </div>
           </div>
@@ -688,7 +688,7 @@ const Nav = (props) => {
             className="nav-rectangle123423"
           />
         </div>
-        <div className="nav-docs">
+        <div className="nav-menu-docs">
           <div className="nav-frame46014">
             <img
               src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b2674ab6-a6c5-49d8-9b64-f4644086f0dc/7c9c7996-32bd-43fc-b83e-42d7fb8c0a90?org_if_sml=13045"
@@ -741,7 +741,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-yy6s.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace13"
+                className="nav-marketplace12"
               />
             </div>
             <div className="nav-navcomponent17">
@@ -765,7 +765,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-toui.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace14"
+                className="nav-marketplace13"
               />
             </div>
             <div className="nav-navcomponent18">
@@ -794,7 +794,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-zx19.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace15"
+                className="nav-marketplace14"
               />
             </div>
           </div>
@@ -804,7 +804,7 @@ const Nav = (props) => {
             className="nav-rectangle123424"
           />
         </div>
-        <div className="nav-blog">
+        <div className="nav-menu-blog">
           <div className="nav-frame46015">
             <img
               src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b2674ab6-a6c5-49d8-9b64-f4644086f0dc/926b88e0-19e6-4fe2-85eb-60e0cc60fa0a?org_if_sml=13045"
@@ -855,7 +855,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-9v1.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace16"
+                className="nav-marketplace15"
               />
             </div>
             <div className="nav-navcomponent20">
@@ -877,7 +877,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-c6c6.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace17"
+                className="nav-marketplace16"
               />
             </div>
             <div className="nav-navcomponent21">
@@ -901,7 +901,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-9gs.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace18"
+                className="nav-marketplace17"
               />
             </div>
             <div className="nav-navcomponent22">
@@ -923,7 +923,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-tug.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace19"
+                className="nav-marketplace18"
               />
             </div>
             <div className="nav-navcomponent23">
@@ -947,7 +947,7 @@ const Nav = (props) => {
               <img
                 src="/playground_assets/marketplacei864-ltw.svg"
                 alt="MarketplaceI864"
-                className="nav-marketplace20"
+                className="nav-marketplace19"
               />
             </div>
           </div>
