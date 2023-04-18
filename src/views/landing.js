@@ -22,7 +22,7 @@ const Landing = (props) => {
       <Helmet>
         <title>exported project</title>
       </Helmet>
-      <div className="landing-desktop-final01">
+      <div className="landing-main">
         <Header rootClassName="header-root-class-name"></Header>
         <Hero rootClassName="hero-root-class-name"></Hero>
         <button className="landing-button-big">
