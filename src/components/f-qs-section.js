@@ -7,7 +7,7 @@ import './f-qs-section.css'
 const FAQsSection = (props) => {
   return (
     <div className={`f-qs-section-f-qs-section ${props.rootClassName} `}>
-      <div className="f-qs-section-group4655">
+      <div className="f-qs-section-corners-top">
         <div className="f-qs-section-group4515">
           <div className="f-qs-section-group4496">
             <img
@@ -39,7 +39,7 @@ const FAQsSection = (props) => {
           <div className="f-qs-section-group44971"></div>
         </div>
       </div>
-      <div className="f-qs-section-group4654">
+      <div className="f-qs-section-corners-bottom">
         <div className="f-qs-section-group4652">
           <div className="f-qs-section-group44962">
             <img
@@ -71,7 +71,7 @@ const FAQsSection = (props) => {
           <div className="f-qs-section-group44973"></div>
         </div>
       </div>
-      <div className="f-qs-section-frame4495">
+      <div className="f-qs-section-faqs">
         <button className="f-qs-section-f-qbutton">
           <img
             alt={props.Rectangle12259_alt}
