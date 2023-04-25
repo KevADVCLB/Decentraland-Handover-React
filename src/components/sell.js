@@ -6,8 +6,8 @@ import './sell.css'
 
 const Sell = (props) => {
   return (
-      <section className={`sell`}>
-          <h2>02</h2>
+      <section>
+          <h2 className={`section-index`}>02</h2>
           <div className={`text-container`}>
               <h1>Sell</h1>
               <div>

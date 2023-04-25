@@ -6,8 +6,8 @@ import './influence.css'
 
 const Influence = (props) => {
   return (
-      <section className={`influence`}>
-        <h2>03</h2>
+      <section>
+        <h2 className={`section-index`}>03</h2>
         <div className={`text-container`}>
           <h1>Influence</h1>
           <div>
@@ -29,13 +29,11 @@ const Influence = (props) => {
 Influence.defaultProps = {
   img_src: '/playground_assets/influence_img.png',
   img_alt: 'image',
-  rootClassName: '',
 }
 
 Influence.propTypes = {
   img_src: PropTypes.string,
   img_alt: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default Influence
