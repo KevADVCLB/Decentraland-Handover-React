@@ -1,3 +1,24 @@
+@media screen and (min-width: 350px) {
+    .img-about {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .img-about {
+        width: 40vw;
+    }
+
+    .about > div {
+        max-width: 50%;
+    }
+}
+
+.about {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
 
 .img-about {
     position: absolute;
@@ -7,7 +28,6 @@
 }
 
 .about > div {
-    grid-column: 3/11;
     align-self: center;
     z-index: 1;
     text-align: center;
@@ -21,7 +41,8 @@
 }
 
 .about h1 {
-    font-size: 80px;
+    font-size: clamp(2.75rem, 5.2vw + 0.475rem, 4.375rem);
+    line-height: clamp(2.75rem, 8vw + -0.75rem, 5.25rem);
     font-weight: 700;
-    line-height: 110px;
+
 }

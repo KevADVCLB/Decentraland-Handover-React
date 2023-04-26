@@ -7,7 +7,7 @@ import Hero from '../components/hero'
 import Events from '../components/events'
 import News from '../components/news'
 import About from '../components/about'
-import Create from '../components/create'
+import Missions from '../components/missions'
 import Sell from '../components/sell'
 import Influence from '../components/influence'
 import Trending from '../components/trending'
@@ -33,7 +33,7 @@ const DesktopFinal01 = (props) => {
         <Events rootClassName="events-root-class-name"></Events>
         <News rootClassName="news-root-class-name"></News>
         <About rootClassName="about-root-class-name"></About>
-        <Create rootClassName="create-root-class-name"></Create>
+        <Missions rootClassName="create-root-class-name"></Missions>
         <Sell rootClassName="sell-root-class-name"></Sell>
         <Influence rootClassName="influence-root-class-name"></Influence>
         <img
