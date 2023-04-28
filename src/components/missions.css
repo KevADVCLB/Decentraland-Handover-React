@@ -1,9 +1,12 @@
 @media screen and (min-width: 350px) {
+    .sticky-container {
+        --font-size-index: 18px;
+    }
+
     .sticky-container > section {
         --font-size-title: 64px;
         --text-width: 100%;
         --padding: 100px 2em;
-        --font-size-index: 18px;
         --img-width: 70%;
         --gap: 0;
     }
@@ -19,15 +22,16 @@
 
 @media screen and (min-width: 920px) {
     .sticky-container > section {
-        position: sticky;
-        top: 0;
         height: 100vh;
         --font-size-title: clamp(4.375rem, 29vw + -13.75rem, 8rem);
-        --font-size-index: 36px;
         --text-width: unset;
         --padding: 100px 3vw;
         --img-width: 40vw;
         --gap: 50vh;
+    }
+
+    .sticky-container {
+        --font-size-index: 36px;
     }
 
     .mobile {
@@ -66,12 +70,13 @@
 }
 
 
-.section-index {
+.section-index > h2 {
     font-size: var(--font-size-index);
     font-weight: 500;
     background-color: var(--secondary);
     vertical-align: top;
     margin-right: 10px;
+    position: sticky;
 }
 
 .text-container {

@@ -13,27 +13,35 @@ import {
     MotionValue
 } from "framer-motion";
 
-const container = {
+const letterAnimation = {
     visible: {
         transition: {
             staggerChildren: 0.03
         }
     }
 };
-
-function useParallax(value: MotionValue<number>, distance: number) {
-    return useTransform(value, [0, 1], [-distance, distance]);
-}
+const pAnimation = {
+    hidden: {
+        y: 15,
+        opacity: 0,
+        transition: {ease: [0.455, 0.03, 0.515, 0.955], duration: 0.85}
+    },
+    visible: {
+        y: 0,
+        opacity: 1,
+        transition: {staggerChildren: 0.05, ease: [0.455, 0.03, 0.515, 0.955], duration: 0.85},
+    }
+};
 
 function Section({children}) {
     const ref = useRef(null);
-    const isInView = useInView(ref, {amount: 0.2});
+    const isInView = useInView(ref, {amount: 0.5, once: true});
 
     return (
         <motion.section
             ref={ref}
             initial="hidden"
-            variants={container}
+            variants={letterAnimation}
             animate={isInView ? "visible" : "hidden"}
         >
             {children}
@@ -50,13 +58,16 @@ export default function Missions(props) {
     const sellInView = useInView(sellRef, {amount: 0.8});
     const influenceInView = useInView(influenceRef, {amount: 0.8});
 
+
     return (
         <>
             <div className={`sticky-container`}>
                 <Section>
-                    <h2 className={`section-index desktop`}>01</h2>
-                    <div ref={createRef} className={`text-container`}>
-                        <div><h2 className={`section-index mobile`}>01</h2>
+                    <h2 className={`section-index desktop`}><AnimatedWords type={'heading2'} text={'01'} y={'50%'}/>
+                    </h2>
+                    <div className={`text-container`}>
+                        <div>
+                            <h2 className={`section-index mobile`}>01</h2>
                             <AnimatedCharacters type={'heading1'} text={'Create'}/>
                         </div>
                         <div className={`img-container mobile ${createInView && !sellInView ? "visible" : "hidden"} `}>
@@ -65,16 +76,18 @@ export default function Missions(props) {
                                 src={props.img_src_create}
                             />
                         </div>
-                        <div>
-                            <AnimatedWords type={'heading3'} text={'MULTIPLE CREATIVE TOOLS'}/>
-                            <p>From wearables, emotes, scenes, or even names,
+                        <motion.div variants={pAnimation} ref={createRef}>
+                            <AnimatedWords type={'heading3'} text={'MULTIPLE CREATIVE TOOLS'} y={'200%'}/>
+                            <p>
+                                From wearables, emotes, scenes, or even names,
                                 there
                                 is an
                                 infinity of things to create and
                                 imagine!
-                                Explore all the creative tools in decentraland.</p>
+                                Explore all the creative tools in decentraland.
+                            </p>
                             <button className={`btn_inverted`}>START DEVELOPING</button>
-                        </div>
+                        </motion.div>
                     </div>
                     <div className={`img-container desktop ${createInView && !sellInView ? "visible" : "hidden"} `}>
                         <img
@@ -84,7 +97,9 @@ export default function Missions(props) {
                     </div>
                 </Section>
 
-                <Section><h2 className={`section-index desktop`}>02</h2>
+                <Section>
+                    <h2 className={`section-index desktop`}><AnimatedWords type={'heading2'} text={'02'} y={'50%'}/>
+                    </h2>
                     <div className={`text-container`}>
                         <div>
                             <h2 className={`section-index mobile`}>02</h2>
@@ -97,15 +112,17 @@ export default function Missions(props) {
                                 src={props.img_src_sell}
                             />
                         </div>
-                        <div ref={sellRef}>
-                            <AnimatedWords type={'heading3'} text={'UNIQUE DECENTRAL MARKET'}/>
-                            <p>Is your new outfit grasping a lot of attention? Buy and sell LAND, Estates, Avatar
+                        <motion.div variants={pAnimation} ref={sellRef}>
+                            <AnimatedWords type={'heading3'} text={'UNIQUE DECENTRAL MARKET'} y={'200%'}/>
+                            <motion.p variants={pAnimation}>Is your new outfit grasping a lot of attention? Buy and sell
+                                LAND, Estates, Avatar
                                 wearables
                                 and names in the Decentraland Marketplace: stocking the very best digital goods backed
                                 by
-                                the ethereum blockchain.</p>
+                                the ethereum blockchain.
+                            </motion.p>
                             <button>GO TO MARKETPLACE</button>
-                        </div>
+                        </motion.div>
                     </div>
                     <div className={`img-container desktop ${sellInView && !influenceInView ? "visible" : "hidden"} `}>
                         <img
@@ -115,7 +132,9 @@ export default function Missions(props) {
                     </div>
                 </Section>
 
-                <Section><h2 className={`section-index desktop`}>03</h2>
+                <Section>
+                    <h2 className={`section-index desktop`}><AnimatedWords type={'heading2'} text={'03'} y={'50%'}/>
+                    </h2>
                     <div className={`text-container`}>
                         <div>
                             <h2 className={`section-index mobile`}>03</h2>
@@ -127,13 +146,15 @@ export default function Missions(props) {
                                 src={props.img_src_influence}
                             />
                         </div>
-                        <div ref={influenceRef}>
-                            <AnimatedWords type={'heading3'} text={'UNIQUE DECENTRAL MARKET'}/>
-                            <p>Through the DAO, you are in control of the policies created to determine how the world
+                        <motion.div variants={pAnimation} ref={influenceRef}>
+                            <AnimatedWords type={'heading3'} text={'UNIQUE DECENTRAL MARKET'} y={'200%'}/>
+                            <motion.p variants={pAnimation}>Through the DAO, you are in control of the policies created
+                                to determine how the world
                                 behaves: for example, what kinds of wearable items are allowed (or disallowed) after the
-                                launch of the DAO, moderation of content, LAND policy and auctions, among others.</p>
+                                launch of the DAO, moderation of content, LAND policy and auctions, among others.
+                            </motion.p>
                             <button>Learn more about DAO</button>
-                        </div>
+                        </motion.div>
                     </div>
                     <div className={`img-container desktop ${influenceInView ? "visible" : "hidden"} `}>
                         <img
