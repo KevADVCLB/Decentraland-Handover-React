@@ -46,7 +46,7 @@ const Landing = (props) => {
                 {/*/>*/}
                 {/*<Trending rootClassName="trending-root-class-name"></Trending>*/}
                 {/*<Discover rootClassName="discover-root-class-name"></Discover>*/}
-                {/*<FAQsSection rootClassName="f-qs-section-root-class-name"></FAQsSection>*/}
+                <FAQsSection></FAQsSection>
                 {/*<Footer rootClassName="footer-root-class-name"></Footer>*/}
             </div>
         </div>

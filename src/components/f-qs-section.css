@@ -1,28 +1,122 @@
-section {
-    width: 100%;
-    left: 0;
+@media screen and (min-width: 350px) {
+    .faqs-container {
+        --padding: 2em 0;
+        --container-width: calc(100% - 2em * 2);
+        --font-size:16px;
+        --line-height:24px;
+    }
 }
 
-.section-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    min-width: 400px;
+@media screen and (min-width: 920px) {
+    .faqs-container {
+        --padding: 100px;
+        --container-width: calc(100% - var(--padding) * 2);
+        --font-size:28px;
+        --line-height:56px;
+    }
+}
+
+
+.faqs-container {
+    width: var(--container-width);
+    padding: var(--padding);
     position: relative;
     margin: auto;
-    color: white;
-    gap: 28px;
+    color: var(--text);
+    background: linear-gradient(to right, var(--text) 4px, transparent 4px) 0 0,
+    linear-gradient(to right, var(--text) 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, var(--text) 4px, transparent 4px) 100% 0,
+    linear-gradient(to left, var(--text) 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, var(--text) 4px, transparent 4px) 0 0,
+    linear-gradient(to bottom, var(--text) 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, var(--text) 4px, transparent 4px) 0 100%,
+    linear-gradient(to top, var(--text) 4px, transparent 4px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
 }
 
-.section-container > div {
+.faqs-content {
+    margin: auto;
     width: 100%;
+    max-width: 1000px;
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+}
+
+.faqs-content > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 76px;
+    padding: 28px 38px 28px 56px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #242129;
+}
+
+.faqs-content > div:after {
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(51, 38, 38, 1) 0%, rgba(219, 94, 94, 1) 76%, rgba(255, 172, 95, 1) 100%);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 1200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.faqs-content > div.close:hover:after {
+    opacity: 1;
+}
+
+
+.faqs-content > h1 {
+    text-align: center;
+    font-size: clamp(2.25rem, 15.789vw + -6.632rem, 6rem);
+    line-height: clamp(2.7rem, 21.474vw + -9.379rem, 7.8rem);
+}
+
+.faqs-content > h2 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    color: #A09BA8;
+}
+
+.faqs-content h3 {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+
+.faqs-content p {
+    margin: 38px 0;
+    font-size: var(--font-size);
+    line-height:var(--line-height);
+    font-weight: 400;
+}
+
+.faqs-content h3 span {
+    font-weight: 600;
+}
+
+.faqs-question {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #242129;
-    border-radius: 76px;
-    padding:  28px 38px 28px 56px;
+}
+
+svg.open, svg.close {
+    transition: transform 1200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+svg.open {
+    transform: rotate(180deg);
 }
 
