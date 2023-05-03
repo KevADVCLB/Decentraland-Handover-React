@@ -12,78 +12,78 @@ const Hero = (props) => {
         src={props.HeroBG_src}
         className="hero-hero-bg"
       />
-      <img
-        alt={props.Decentraland_alt}
-        src={props.Decentraland_src}
-        className="hero-decentraland"
-      />
-      <img
-        alt={props.HeroImage_alt}
-        src={props.HeroImage_src}
-        className="hero-hero-image"
-      />
-      <span className="hero-text DesktopIntroSubText">
-        <span className="">
-          Start exploring the world by downloading our desktop client for the
-          best experience.
-          <span
-            dangerouslySetInnerHTML={{
-              __html: ' ',
-            }}
-          />
-        </span>
-      </span>
-      <div className="hero-download-client">
-        <div className="hero-group4561">
-          <button className="hero-button">
-            <span className="hero-text02">
-              <span className="">Download client</span>
-            </span>
-            <span className="hero-text04">
-              <span className="">Recommended</span>
-            </span>
-            <img
-              alt={props.Frame_alt}
-              src={props.Frame_src}
-              className="hero-frame"
-            />
-            <img
-              alt={props.chevronright_alt}
-              src={props.chevronright_src}
-              className="hero-chevronright"
-            />
-          </button>
-        </div>
-      </div>
-      <div className="hero-start-on-web">
-        <div className="hero-group45611">
-          <button className="hero-button1">
-            <span className="hero-text06">
-              <span className="">Start on Web</span>
-            </span>
-            <span className="hero-text08">
-              <span className="">Limited Experience</span>
-            </span>
-            <img
-              alt={props.chevronright_alt1}
-              src={props.chevronright_src1}
-              className="hero-chevronright1"
-            />
-          </button>
-        </div>
-        <div className="hero-group4755">
-          <img
-            alt={props.Ellipse289_alt}
-            src={props.Ellipse289_src}
-            className="hero-ellipse289"
-          />
-          <img
-            alt={props.globe02_alt}
-            src={props.globe02_src}
-            className="hero-globe02"
-          />
-        </div>
-      </div>
+      {/*<img*/}
+      {/*  alt={props.Decentraland_alt}*/}
+      {/*  src={props.Decentraland_src}*/}
+      {/*  className="hero-decentraland"*/}
+      {/*/>*/}
+      {/*<img*/}
+      {/*  alt={props.HeroImage_alt}*/}
+      {/*  src={props.HeroImage_src}*/}
+      {/*  className="hero-hero-image"*/}
+      {/*/>*/}
+      {/*<span className="hero-text DesktopIntroSubText">*/}
+      {/*  <span className="">*/}
+      {/*    Start exploring the world by downloading our desktop client for the*/}
+      {/*    best experience.*/}
+      {/*    <span*/}
+      {/*      dangerouslySetInnerHTML={{*/}
+      {/*        __html: ' ',*/}
+      {/*      }}*/}
+      {/*    />*/}
+      {/*  </span>*/}
+      {/*</span>*/}
+      {/*<div className="hero-download-client">*/}
+      {/*  <div className="hero-group4561">*/}
+      {/*    <button className="hero-button">*/}
+      {/*      <span className="hero-text02">*/}
+      {/*        <span className="">Download client</span>*/}
+      {/*      </span>*/}
+      {/*      <span className="hero-text04">*/}
+      {/*        <span className="">Recommended</span>*/}
+      {/*      </span>*/}
+      {/*      <img*/}
+      {/*        alt={props.Frame_alt}*/}
+      {/*        src={props.Frame_src}*/}
+      {/*        className="hero-frame"*/}
+      {/*      />*/}
+      {/*      <img*/}
+      {/*        alt={props.chevronright_alt}*/}
+      {/*        src={props.chevronright_src}*/}
+      {/*        className="hero-chevronright"*/}
+      {/*      />*/}
+      {/*    </button>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
+      {/*<div className="hero-start-on-web">*/}
+      {/*  <div className="hero-group45611">*/}
+      {/*    <button className="hero-button1">*/}
+      {/*      <span className="hero-text06">*/}
+      {/*        <span className="">Start on Web</span>*/}
+      {/*      </span>*/}
+      {/*      <span className="hero-text08">*/}
+      {/*        <span className="">Limited Experience</span>*/}
+      {/*      </span>*/}
+      {/*      <img*/}
+      {/*        alt={props.chevronright_alt1}*/}
+      {/*        src={props.chevronright_src1}*/}
+      {/*        className="hero-chevronright1"*/}
+      {/*      />*/}
+      {/*    </button>*/}
+      {/*  </div>*/}
+      {/*  <div className="hero-group4755">*/}
+      {/*    <img*/}
+      {/*      alt={props.Ellipse289_alt}*/}
+      {/*      src={props.Ellipse289_src}*/}
+      {/*      className="hero-ellipse289"*/}
+      {/*    />*/}
+      {/*    <img*/}
+      {/*      alt={props.globe02_alt}*/}
+      {/*      src={props.globe02_src}*/}
+      {/*      className="hero-globe02"*/}
+      {/*    />*/}
+      {/*  </div>*/}
+      {/*</div>*/}
     </div>
   )
 }

@@ -1,58 +1,8 @@
-.landing-container {
-  min-height: 100vh;
-}
 
 .landing-main {
-  width: 100%;
-  height: 9090px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-  background-color: var(--dl-color-default-bgcolor);
+    width: 100%;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: Inter, sans-serif;
 }
 
-.landing-button-big {
-  top: 3845px;
-  left: 486px;
-  width: 200px;
-  height: 64px;
-  display: flex;
-  padding: 20px 44px;
-  position: absolute;
-  align-items: center;
-  flex-shrink: 0;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 8px;
-  justify-content: center;
-}
-
-.landing-text {
-  color: var(--dl-color-grey-white);
-  height: auto;
-  font-size: 13px;
-  align-self: auto;
-  font-style: Bold;
-  text-align: center;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 16px;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-decoration: none;
-}
-
-.landing-divider05 {
-  top: 5770px;
-  left: 0px;
-  width: 1728px;
-  height: 0px;
-  position: absolute;
-}
-
-/*# sourceMappingURL=landing.css.map */
