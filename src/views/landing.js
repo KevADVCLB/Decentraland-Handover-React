@@ -33,9 +33,8 @@ const Landing = (props) => {
                 {/*<Events rootClassName="events-root-class-name"></Events>*/}
                 {/*<News rootClassName="news-root-class-name"></News>*/}
 
-                <About rootClassName="about-root-class-name"></About>
-                <Missions rootClassName="create-root-class-name"></Missions>
-                <div></div>
+                {/*<About rootClassName="about-root-class-name"></About>*/}
+                {/*<Missions rootClassName="create-root-class-name"></Missions>*/}
                 {/*<Sell rootClassName="sell-root-class-name"></Sell>*/}
                 {/*<Influence rootClassName="influence-root-class-name"></Influence>*/}
 
@@ -45,7 +44,7 @@ const Landing = (props) => {
                 {/*  src="/playground_assets/divider054749-qon.svg"*/}
                 {/*  className="landing-divider05"*/}
                 {/*/>*/}
-                {/*<Trending rootClassName="trending-root-class-name"></Trending>*/}
+                <Trending rootClassName="trending-root-class-name"></Trending>
                 {/*<Discover rootClassName="discover-root-class-name"></Discover>*/}
                 {/*<FAQsSection rootClassName="f-qs-section-root-class-name"></FAQsSection>*/}
                 {/*<Footer rootClassName="footer-root-class-name"></Footer>*/}
