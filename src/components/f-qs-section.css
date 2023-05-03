@@ -1,4 +1,4 @@
-section {
+.faqs-section {
     width: 100%;
     left: 0;
 }
@@ -23,6 +23,6 @@ section {
     align-items: center;
     background-color: #242129;
     border-radius: 76px;
-    padding:  28px 38px 28px 56px;
+    padding: 28px 38px 28px 56px;
 }
 

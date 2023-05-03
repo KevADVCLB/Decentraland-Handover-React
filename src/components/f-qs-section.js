@@ -6,7 +6,7 @@ import './f-qs-section.css'
 
 const FAQsSection = (props) => {
     return (
-        <section className={`${props.rootClassName}`}>
+        <section className={`faqs-section`}>
             <div className={`section-container`}>
                 <h2>Learn more about Decentraland</h2>
                 <h1>Frequently Asked Questions</h1>
