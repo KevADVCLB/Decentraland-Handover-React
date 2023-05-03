@@ -1,5 +1,5 @@
 @media screen and (min-width: 350px) {
-    .missions-container {
+    .missions__container {
         --font-size-index: 18px;
         --font-size-title: 64px;
         --text-width: 100%;
@@ -7,41 +7,41 @@
 
     }
 
-    .mobile {
+    .missions__container-mobile {
         display: inline;
     }
 
-    .desktop {
+    .missions__container-desktop{
         display: none;
     }
 }
 
 @media screen and (min-width: 920px) {
-    .missions-container {
+    .missions__container {
         --font-size-title: clamp(4.375rem, 29vw + -13.75rem, 8rem);
         --text-width: unset;
         --font-size-index: 36px;
         --padding: 3vw;
     }
 
-    .mobile {
+    .missions__container-mobile {
         display: none;
     }
 
-    .desktop {
+    .missions__container-desktop {
         display: block;
     }
 }
 
 @media screen and (min-width: 1300px) {
-    .missions-container {
+    .missions__container {
         --text-width: 40vw;
         --padding: 100px;
     }
 
 }
 
-.missions-container {
+.missions__container {
     background-color: var(--secondary);
     position: relative;
     display: flex;
@@ -49,13 +49,13 @@
     justify-content: center;
 }
 
-.missions-container section {
+.missions__container section {
     min-height: 100vh;
     padding: var(--padding);
     display: flex;
 }
 
-.section-index > h2, .section-index {
+.missions__container-index > h2, .missions__container-index{
     font-size: var(--font-size-index);
     font-weight: 500;
     background-color: var(--secondary);
@@ -64,14 +64,14 @@
     position: sticky;
 }
 
-.text-container {
+.missions__container-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
 }
 
-.text-container h1 {
+.missions__container-text h1 {
     font-size: var(--font-size-title);
     line-height: 1;
     font-weight: 700;
@@ -80,34 +80,34 @@
     vertical-align: top;
 }
 
-.text-container h3 {
+.missions__container-text h3 {
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
     color: #A09BA8;
 }
 
-.text-container p {
+.missions__container-text p {
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
     margin: 30px 0;
 }
 
-.text-container button {
+.missions__container-text button {
     background-color: var(--text);
     padding: 24px 57px;
     border-radius: 8px;
     margin-right: 20px;
 }
 
-.img-container.mobile {
+.missions__container-img.missions__container-mobile {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.img-container img {
+.missions__container-img img {
     object-fit: contain;
     width: 100%;
     height: 100%;
@@ -118,7 +118,7 @@
 /* ------ DESKTOP IMAGES ----- */
 
 
-.sticky-images > div {
+.missions__container-sticky > div {
     position: sticky;
     top: 0;
     min-width: 40vw;
@@ -130,7 +130,7 @@
 }
 
 
-.img-container {
+.missions__container-img {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -139,7 +139,7 @@
     transition: transform 1000ms cubic-bezier(0.7, 0, 0.84, 0);
 }
 
-.visible {
+.missions__container-img-visible {
     transform: scale(1, 1);
     transition: transform 0ms;
 }
@@ -151,7 +151,7 @@
     opacity: 0;
 }
 
-.visible .gradient, .visible .shadow {
+.missions__container-img-visible .gradient, .missions__container-img-visible .shadow {
     transform: translate(99.566863px, 37.901595px) rotate(40.59deg) translate(-99.566863px, -37.901595px);
     opacity: 1;
 }
@@ -162,7 +162,7 @@
     transition: transform 800ms cubic-bezier(0.25, 1, 0.5, 1) 250ms, opacity 800ms cubic-bezier(0.25, 1, 0.5, 1) 250ms;
 }
 
-.visible .character {
+.missions__container-img-visible .character {
     opacity: 1;
     transform: scale(1) translateY(0px);
 }

@@ -59,18 +59,18 @@ export default function Missions(props) {
 
     return (
         <>
-            <div className={`missions-container`}>
+            <div className={`missions__container`}>
                 <div>
                     <Section>
-                        <div className={`section-index desktop`}><AnimatedWords type={'heading2'} text={'01'}
+                        <div className={`missions__container-index missions__container-desktop`}><AnimatedWords type={'heading2'} text={'01'}
                                                                                 y={'50%'}/></div>
-                        <div className={`text-container`} ref={createRef}>
+                        <div className={`missions__container-text`} ref={createRef}>
                             <div>
-                                <h2 className={`section-index mobile`}>01</h2>
+                                <h2 className={`missions__container-index missions__container-mobile`}>01</h2>
                                 <AnimatedCharacters type={'heading1'} text={'Create'}/>
                             </div>
                             <div
-                                className={`img-container mobile ${createInView && !sellInView ? "visible" : "hidden"} `}>
+                                className={`missions__container-img missions__container-mobile ${createInView && !sellInView ? "missions__container-img-visible" : ""} `}>
                                 <CreateSVG id='mobile'/>
                             </div>
                             <motion.div variants={pAnimation}>
@@ -89,16 +89,16 @@ export default function Missions(props) {
                     </Section>
 
                     <Section>
-                        <div className={`section-index desktop`}><AnimatedWords type={'heading2'} text={'02'}
+                        <div className={`missions__container-index missions__container-desktop`}><AnimatedWords type={'heading2'} text={'02'}
                                                                                 y={'50%'}/>
                         </div>
-                        <div className={`text-container`} ref={sellRef}>
+                        <div className={`missions__container-text`} ref={sellRef}>
                             <div>
-                                <h2 className={`section-index mobile`}>02</h2>
+                                <h2 className={`missions__container-index missions__container-mobile`}>02</h2>
                                 <AnimatedCharacters type={'heading1'} text={'Sell'}/>
                             </div>
                             <div
-                                className={`img-container mobile ${sellInView && !influenceInView ? "visible" : "hidden"} `}>
+                                className={`missions__container-img missions__container-mobile ${sellInView && !influenceInView ? "missions__container-img-visible" : ""} `}>
                                 <SellSVG id='mobile'/>
                             </div>
                             <motion.div variants={pAnimation}>
@@ -117,16 +117,16 @@ export default function Missions(props) {
                         </div>
                     </Section>
                     <Section>
-                        <div className={`section-index desktop`}><AnimatedWords type={'heading2'} text={'03'}
+                        <div className={`missions__container-index missions__container-desktop`}><AnimatedWords type={'heading2'} text={'03'}
                                                                                 y={'50%'}/>
                         </div>
-                        <div className={`text-container`} ref={influenceRef}>
+                        <div className={`missions__container-text`} ref={influenceRef}>
                             <div>
-                                <h2 className={`section-index mobile`}>03</h2>
+                                <h2 className={`missions__container-index missions__container-mobile`}>03</h2>
                                 <AnimatedCharacters type={'heading1'} text={'Influence'}/>
                             </div>
                             <div
-                                className={`img-container mobile ${influenceInView ? "visible" : "hidden"} `}>
+                                className={`missions__container-img missions__container-mobile ${influenceInView ? "missions__container-img-visible" : ""} `}>
                                 <InfluenceSVG id={'mobile'}/>
                             </div>
                             <motion.div variants={pAnimation}>
@@ -145,26 +145,25 @@ export default function Missions(props) {
                     </Section>
                 </div>
 
-                <div className={`sticky-images desktop`}>
+                <div className={`missions__container-sticky missions__container-desktop`}>
                     <div>
                         <div
-                            className={`img-container desktop ${createInView && !sellInView ? "visible" : ""} `}
+                            className={`missions__container-img ${createInView && !sellInView ? "missions__container-img-visible" : ""} `}
                             style={{zIndex: 0}}>
                             <CreateSVG id={'desktop'}/>
                         </div>
 
                         <div
-                            className={`img-container desktop ${sellInView && !influenceInView ? "visible" : ""} `}
+                            className={`missions__container-img ${sellInView && !influenceInView ? "missions__container-img-visible" : ""} `}
                             style={{zIndex: 1}}>
                             <SellSVG id={'desktop'}/>
                         </div>
                         <div
-                            className={`img-container desktop ${influenceInView ? "visible" : ""} `}
+                            className={`missions__container-img ${influenceInView ? "missions__container-img-visible" : ""} `}
                             style={{zIndex: 2}}>
                             <InfluenceSVG id={'desktop'}/>
                         </div>
                     </div>
-
                 </div>
 
             </div>
