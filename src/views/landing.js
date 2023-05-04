@@ -1,20 +1,10 @@
 import React from 'react'
-
 import {Helmet} from 'react-helmet'
-
-import Header from '../components/header'
-import Hero from '../components/hero'
-import Events from '../components/events'
-import News from '../components/news'
-import About from '../components/about'
-import Missions from '../components/missions'
-import Sell from '../components/sell'
-import Influence from '../components/influence'
 import Trending from '../components/trending'
-import Discover from '../components/discover'
-import FAQsSection from '../components/f-qs-section'
-import Footer from '../components/footer'
+
 import './landing.css'
+import Missions from "../components/missions";
+import Worlds from "../components/worlds";
 
 const Landing = (props) => {
     return (
@@ -34,7 +24,8 @@ const Landing = (props) => {
                 {/*<News rootClassName="news-root-class-name"></News>*/}
 
                 {/*<About rootClassName="about-root-class-name"></About>*/}
-                {/*<Missions rootClassName="create-root-class-name"></Missions>*/}
+                <Missions rootClassName="create-root-class-name"></Missions>
+                <Worlds/>
                 {/*<Sell rootClassName="sell-root-class-name"></Sell>*/}
                 {/*<Influence rootClassName="influence-root-class-name"></Influence>*/}
 
@@ -44,7 +35,7 @@ const Landing = (props) => {
                 {/*  src="/playground_assets/divider054749-qon.svg"*/}
                 {/*  className="landing-divider05"*/}
                 {/*/>*/}
-                <Trending rootClassName="trending-root-class-name"></Trending>
+                {/*<Trending></Trending>*/}
                 {/*<Discover rootClassName="discover-root-class-name"></Discover>*/}
                 {/*<FAQsSection rootClassName="f-qs-section-root-class-name"></FAQsSection>*/}
                 {/*<Footer rootClassName="footer-root-class-name"></Footer>*/}

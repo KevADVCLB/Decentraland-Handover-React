@@ -1,39 +1,40 @@
 :root {
-  --background: #18141a;
-  --danger: #ffa900;
-  --error: #ff0000;
-  --primary: #ff2d55;
-  --secondary: #242129;
-  --primary-hover: #ff3d61;
-  --secondary-hover: #28262c;
-  --secondary-on-modal: #67637033;
-  --secondary-on-modal-hover: #6763704d;
-  --card-on-modal: #67637033;
-  --text: #ffffff;
-  --secondary-text: #676370;
-  --text-on-primary: #ffffff;
-  --text-on-secondary: #ffffff;
-  --divider: #67637033;
-  --dropdown: #676370;
-  --dropdown-hover: #24212933;
-  --popup: #676370;
-  --popup-text: #ffffff;
-  --navbar-popup: #242129;
-  --navbar-popup-hover: #67637033;
-  --card: #242129;
-  --outline: 1px solid #00000005;
-  --toast: #3d3b43;
-  --toast-text: #ffffff;
-  --modal: #242129;
-  --dimmer: #000000dd;
-  --shadow-1: 0px 2px 4px 0px rgba(0, 0, 0, 0.16);
-  --shadow-2: 0px 10px 20px 0px rgba(0, 0, 0, 0.24);
-  --shadow-3: 0px 16px 32px 0px rgba(0, 0, 0, 0.32);
-  --shadow-color-1: 0px 2px 4px 0px rgba(0, 0, 0, 0.16);
-  --shadow-color-2: 0px 10px 20px 0px rgba(0, 0, 0, 0.24);
-  --shadow-color-3: 0px 16px 32px 0px rgba(0, 0, 0, 0.32);
-  --brightness: brightness(100);
+    --background: #18141a;
+    --danger: #ffa900;
+    --error: #ff0000;
+    --primary: #ff2d55;
+    --secondary: #242129;
+    --primary-hover: #ff3d61;
+    --secondary-hover: #28262c;
+    --secondary-on-modal: #67637033;
+    --secondary-on-modal-hover: #6763704d;
+    --card-on-modal: #67637033;
+    --text: #ffffff;
+    --secondary-text: #676370;
+    --text-on-primary: #ffffff;
+    --text-on-secondary: #ffffff;
+    --divider: #67637033;
+    --dropdown: #676370;
+    --dropdown-hover: #24212933;
+    --popup: #676370;
+    --popup-text: #ffffff;
+    --navbar-popup: #242129;
+    --navbar-popup-hover: #67637033;
+    --card: #242129;
+    --outline: 1px solid #00000005;
+    --toast: #3d3b43;
+    --toast-text: #ffffff;
+    --modal: #242129;
+    --dimmer: #000000dd;
+    --shadow-1: 0px 2px 4px 0px rgba(0, 0, 0, 0.16);
+    --shadow-2: 0px 10px 20px 0px rgba(0, 0, 0, 0.24);
+    --shadow-3: 0px 16px 32px 0px rgba(0, 0, 0, 0.32);
+    --shadow-color-1: 0px 2px 4px 0px rgba(0, 0, 0, 0.16);
+    --shadow-color-2: 0px 10px 20px 0px rgba(0, 0, 0, 0.24);
+    --shadow-color-3: 0px 16px 32px 0px rgba(0, 0, 0, 0.32);
+    --brightness: brightness(100);
 }
+
 /*.button {*/
 /*  color: var(--dl-color-gray-black);*/
 /*  display: inline-block;*/
@@ -63,278 +64,317 @@
 /*}*/
 
 .list {
-  width: 100%;
-  margin: 1em 0px 1em 0px;
-  display: block;
-  padding: 0px 0px 0px 1.5rem;
-  list-style-type: none;
-  list-style-position: outside;
+    width: 100%;
+    margin: 1em 0px 1em 0px;
+    display: block;
+    padding: 0px 0px 0px 1.5rem;
+    list-style-type: none;
+    list-style-position: outside;
 }
+
 .list-item {
-  display: list-item;
+    display: list-item;
 }
+
 .teleport-show {
-  display: flex !important;
-  transform: none !important;
+    display: flex !important;
+    transform: none !important;
 }
+
 .DesktopLegalText {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 400;
-  font-stretch: normal;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-stretch: normal;
 }
+
 .MobileHeading1 {
-  font-size: 56px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 56px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .MobileLink {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 500;
-  font-stretch: normal;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
 }
+
 .Content {
-  font-size: 16px;
-  font-family: Inter, sans-serif;
-  font-weight: 400;
-  line-height: 1.15;
-  text-transform: none;
-  text-decoration: none;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
 }
+
 .DesktopNavLinks {
-  font-size: 15px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 15px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .MobileHeading3 {
-  font-size: 36px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 36px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .DesktopLinkTitle {
-  font-size: 16px;
-  font-style: normal;
-  font-family: IBM Plex Mono;
-  font-weight: 400;
-  font-stretch: normal;
+    font-size: 16px;
+    font-style: normal;
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    font-stretch: normal;
 }
+
 .Mobile\#ofpeopletext {
-  font-size: 12px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 500;
-  font-stretch: normal;
+    font-size: 12px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
 }
+
 .MobileDCLStatement {
-  font-size: 44px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 44px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .MobileSubtitle {
-  font-size: 13px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 13px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .MobileHeading4 {
-  font-size: 36px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 36px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .MobileNumber {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 400;
-  font-stretch: normal;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-stretch: normal;
 }
+
 .MobileEvent, .PlacesTitle {
-  font-size: 28px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 28px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .DesktopHyperlink {
-  font-size: 15px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 15px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .DesktopDateText {
-  font-size: 12px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 12px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .MobileIntroSubText {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 400;
-  font-stretch: normal;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-stretch: normal;
 }
+
 .Desktop\#ofpeopletext {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 500;
-  font-stretch: normal;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
 }
+
 .MobileButtonText {
-  font-size: 13px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 13px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .DesktopHeading3 {
-  font-size: 96px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 96px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .DesktopHeading4 {
-  font-size: 56px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 56px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .DesktopTrendingItemstitle {
-  font-size: 72px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 72px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .MobileLinkTitle {
-  font-size: 10px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 500;
-  font-stretch: normal;
+    font-size: 10px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
 }
+
 .DesktopHeading5 {
-  font-size: 36px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 36px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .DesktopLinks {
-  font-size: 24px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 500;
-  font-stretch: normal;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
 }
+
 .DesktopEvents, .PlacesTitle {
-  font-size: 28px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 28px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .MobileHeading2 {
-  font-size: 64px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 64px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .MobileHyperlink {
-  font-size: 12px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 12px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .DesktopStatementText {
-  font-size: 80px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 80px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .DesktopSubtitle {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .Heading {
-  font-size: 32px;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  line-height: 1.15;
-  text-transform: none;
-  text-decoration: none;
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
 }
+
 .DesktopIntroSubText {
-  font-size: 46px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 400;
-  font-stretch: normal;
+    font-size: 46px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-stretch: normal;
 }
+
 .MobileLegalText {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 500;
-  font-stretch: normal;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
 }
+
 .MobileParagraph {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 400;
-  font-stretch: normal;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-stretch: normal;
 }
+
 .DesktopParagraph {
-  font-size: 24px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 400;
-  font-stretch: normal;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-stretch: normal;
 }
+
 .DesktopNumber {
-  font-size: 36px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 500;
-  font-stretch: normal;
+    font-size: 36px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
 }
+
 .DesktopHeading2 {
-  font-size: 128px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-stretch: normal;
+    font-size: 128px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-stretch: normal;
 }
+
 .DesktopBlogtitle {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Inter, sans-serif;
-  font-weight: 500;
-  font-stretch: normal;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
 }

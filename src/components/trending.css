@@ -1,18 +1,11 @@
-@media screen and (min-width: 920px) {
-    .swiper-wrapper {
-        justify-content: center;
-    }
-}
+
 
 .trending-item {
     height: 360px;
     width: 266px;
-    margin-left: 20px;
     background-color: red;
-
+    border-radius: 10px;
 }
 
-.swiper-slide {
-    width: unset;
-}
+
 

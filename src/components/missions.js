@@ -22,15 +22,14 @@ const pAnimation = {
     hidden: {
         y: 15,
         opacity: 0,
-        transition: {ease: [0.455, 0.03, 0.515, 0.955], duration: 0.85}
+        transition: {ease: [0.455, 0.03, 0.515, 0.955], duration: 0.75}
     },
     visible: {
         y: 0,
         opacity: 1,
-        transition: {staggerChildren: 0.05, ease: [0.455, 0.03, 0.515, 0.955], duration: 0.85},
+        transition: {staggerChildren: 0.03, ease: [0.455, 0.03, 0.515, 0.955], duration: 0.75},
     }
 };
-
 function Section({children}) {
     const ref = useRef(null);
     const isInView = useInView(ref, {amount: 0.5, once: true});
