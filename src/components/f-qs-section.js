@@ -9,6 +9,7 @@ const Accordion = ({title, children, i, expanded, setExpanded}) => {
     const isOpen = i === expanded;
 
     return (
+<<<<<<< HEAD
         <>
             <motion.div
                 initial={false}
@@ -21,6 +22,16 @@ const Accordion = ({title, children, i, expanded, setExpanded}) => {
                          xmlns="http://www.w3.org/2000/svg">
                         <circle opacity={isOpen ? "1" : "0.2"} cx="36" cy="36" r="35" stroke="white"
                                 fill={isOpen ? "white" : "none"} strokeWidth="2"/>
+=======
+        <section className={`faqs-section`}>
+            <div className={`section-container`}>
+                <h2>Learn more about Decentraland</h2>
+                <h1>Frequently Asked Questions</h1>
+                <div>
+                    <h3>What is <span>Metaverse?</span></h3>
+                    <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle opacity="0.2" cx="36" cy="36" r="35" stroke="white" strokeWidth="2"/>
+>>>>>>> swiper
                         <g clipPath="url(#clip0_529_3930)">
                             <path
                                 d="M45 33.0022L42.885 30.8872L36 37.7572L29.115 30.8872L27 33.0022L36 42.0022L45 33.0022Z"

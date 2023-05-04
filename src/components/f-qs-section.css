@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (min-width: 350px) {
     .faqs-container {
         --padding: 2em 0;
@@ -5,6 +6,11 @@
         --font-size:16px;
         --line-height:24px;
     }
+=======
+.faqs-section {
+    width: 100%;
+    left: 0;
+>>>>>>> swiper
 }
 
 @media screen and (min-width: 920px) {
@@ -110,6 +116,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
 }
 
 svg.open, svg.close {
@@ -118,5 +125,10 @@ svg.open, svg.close {
 
 svg.open {
     transform: rotate(180deg);
+=======
+    background-color: #242129;
+    border-radius: 76px;
+    padding: 28px 38px 28px 56px;
+>>>>>>> swiper
 }
 

@@ -23,7 +23,7 @@ const AnimatedCharacters = (props) => {
         visible: {
             y: 0,
             opacity: 1,
-            transition: {ease: [0.455, 0.03, 0.515, 0.955], duration: 0.85 }
+            transition: {ease: [0.455, 0.03, 0.515, 0.955], duration: 0.85}
         }
     };
 
@@ -33,10 +33,9 @@ const AnimatedCharacters = (props) => {
         words.push(item.split(""));
     }
 
-    // Add a space ("\u00A0") to the end of each word
-    // words.map((word) => {
-    //     return word.push("\u00A0");
-    // });
+    words.map((word) => {
+        return word.push("\u00A0");
+    });
 
     // Get the tag name from tagMap
     const Tag = tagMap[props.type];

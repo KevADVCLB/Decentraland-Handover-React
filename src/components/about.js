@@ -1,10 +1,25 @@
-import React from 'react'
+import React, {useRef} from 'react'
+import {useInView} from "framer-motion"
 
 import PropTypes from 'prop-types'
+import {
+    motion,
+} from "framer-motion";
 
 import './about.css'
+import AnimatedCharacters from "./AnimatedCharacters";
 
+const text = 'Create, explore and trade in the first-ever virtual world owned by its users'
 const About = (props) => {
+    const ref = useRef(null);
+    const isInView = useInView(ref, {amount: 0.5, once: true});
+    const letterAnimation = {
+        visible: {
+            transition: {
+                staggerChildren: 0.015
+            }
+        }
+    };
     return (
         <section className={`about`}>
             <img
@@ -12,10 +27,13 @@ const About = (props) => {
                 src={props.DecentraLogo1_src}
                 className="img-about"
             />
-            <div>
+            <motion.div ref={ref}
+                        initial="hidden"
+                        variants={letterAnimation}
+                        animate={isInView ? "visible" : "hidden"}>
                 <h3>THIS IS DECENTRALAND</h3>
-                <h1>Create, explore and trade in the first-ever virtual world owned by its users</h1>
-            </div>
+                <AnimatedCharacters type={'heading1'} text={text}/>
+            </motion.div>
         </section>
     )
 }
