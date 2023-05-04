@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './style.css'
 import Landing from './views/landing'
 
+
 const App = () => {
   return (
     <Router>

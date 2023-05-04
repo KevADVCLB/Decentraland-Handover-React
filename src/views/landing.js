@@ -15,10 +15,13 @@ import Discover from '../components/discover'
 import FAQsSection from '../components/f-qs-section'
 import Footer from '../components/footer'
 import './landing.css'
+import {Test} from '../components/test'
 
 const Landing = (props) => {
     return (
+
         <div className="landing-container">
+            <Test/>
             <Helmet>
                 <title>exported project</title>
             </Helmet>
